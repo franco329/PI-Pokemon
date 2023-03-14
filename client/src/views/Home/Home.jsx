@@ -116,6 +116,7 @@ const Home = () => {
   }, [dispatch, indexOfFirsttItem, indexOfLastItem, copyPokemons]);
   return (
     <div className={styles.home}>
+      <h1>Julian estuvo aca</h1>
       <SearchBar
         handleBusqueda={handleBusqueda}
         handlerFilter={handlerFilter}
